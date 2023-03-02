@@ -73,7 +73,7 @@ section {
     section {
         padding: 35px 25px;
     }
-    .section-inner:active {
+    .section-inner::after {
         height: calc(100% + 350px);
     }
 }
