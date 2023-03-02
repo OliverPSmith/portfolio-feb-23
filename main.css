@@ -67,6 +67,7 @@ section {
     z-index: -1;
 }   
 .about-inner::after {
+    background-image: url(images/bg-inner.png);
     height: calc(100% + 350px);
 }
 
