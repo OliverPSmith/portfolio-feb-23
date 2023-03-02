@@ -66,14 +66,15 @@ section {
     opacity: .6;
     z-index: -1;
 }   
-.about-inner::after {
-    height: calc(100% + 350px);
-}
+
 
 @media only screen and (max-width: 599px) {
     section {
         padding: 35px 25px;
     }
+    .about-inner::after {
+        height: calc(100% + 350px);
+}
 }
 
 .menu-toggle {
