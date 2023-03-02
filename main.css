@@ -48,7 +48,7 @@ section {
 .section-inner {
     height: 100%;
     width: 100%;
-  /*  background: url(images/bg-inner.png);     */
+
     border: 2px solid var(--font-col-main);
     position: relative;
     overflow-y: scroll;
