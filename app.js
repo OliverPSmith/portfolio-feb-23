@@ -37,3 +37,20 @@ menuToggle.addEventListener('click', () => {
         })
     }
 })
+
+
+// Show Project Images
+
+const projects = document.querySelectorAll('.project');
+
+for (let i = 0; i < projects.length; i++) {
+    const project = projects[i];
+    const projectBtn = project.querySelector('.project-btn');
+    const projectImages = project.querySelector('.project-images');
+    
+    projectBtn?.addEventListener('click',() => {
+        projectBtn.classList.toggle('show-button')
+        projectImages.classList.toggle('show');
+        console.log('test');
+    })
+}
